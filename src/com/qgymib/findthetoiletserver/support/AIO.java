@@ -1,4 +1,4 @@
-package com.qgymib.findthetoiletserver;
+package com.qgymib.findthetoiletserver.support;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;
@@ -7,6 +7,7 @@ import java.nio.charset.Charset;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+import com.qgymib.findthetoiletserver.ConfigData;
 import com.qgymib.findthetoiletserver.data.DataTransfer.SocketReadDataTransfer;
 
 /**

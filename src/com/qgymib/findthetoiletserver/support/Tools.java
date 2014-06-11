@@ -1,4 +1,4 @@
-package com.qgymib.findthetoiletserver;
+package com.qgymib.findthetoiletserver.support;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
