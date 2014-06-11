@@ -1,0 +1,2 @@
+#关于
+Event-Driven Server是一个专属于FindTheToiletClient的事件驱动型服务器。使用Java Selector处理IO事件。其中集成了基于线程池的AIO类，但只在socket writer中使用了。后续会放出一个完全使用AIO的事件驱动程序。
