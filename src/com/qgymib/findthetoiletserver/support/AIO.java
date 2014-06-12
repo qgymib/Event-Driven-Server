@@ -66,9 +66,9 @@ public class AIO {
         public void run() {
             int count = 0;
             try {
-                while ((count = channel.read(receivebuffer)) != -1) {
+                if ((count = channel.read(receivebuffer)) != -1) {
                     receivedMessage += new String(receivebuffer.array(), 0,
-                            count);
+                            count - 1);
                     receivebuffer.clear();
                 }
 
